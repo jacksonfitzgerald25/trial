@@ -13,12 +13,13 @@
         "filePath": "dist/bundle.js",
         "iconPath": "images/icon.svg",
         "packageName": "@metamask/template-snap",
-        "registry": "https://registry.npmjs.org/"
+        "registry": "http://localhost:8080/"
       }
     }
   },
   "initialPermissions": {
-    "snap_confirm": {}
+    "snap_confirm": {},
+    "endowment:network-access": {}
   },
   "manifestVersion": "0.1"
 }
